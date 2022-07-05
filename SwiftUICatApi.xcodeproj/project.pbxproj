@@ -17,6 +17,9 @@
 		C357702C2874654E00D787C6 /* Breed.swift in Sources */ = {isa = PBXBuildFile; fileRef = C357702B2874654E00D787C6 /* Breed.swift */; };
 		C357702E287469AE00D787C6 /* BreedImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C357702D287469AE00D787C6 /* BreedImage.swift */; };
 		C357703328746A7F00D787C6 /* BreedFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = C357703228746A7F00D787C6 /* BreedFetcher.swift */; };
+		C35770352874717100D787C6 /* BreedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = C35770342874717100D787C6 /* BreedList.swift */; };
+		C3577038287471A500D787C6 /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3577037287471A500D787C6 /* ErrorView.swift */; };
+		C357703A287471B400D787C6 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3577039287471B400D787C6 /* LoadingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +53,9 @@
 		C357702B2874654E00D787C6 /* Breed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Breed.swift; sourceTree = "<group>"; };
 		C357702D287469AE00D787C6 /* BreedImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreedImage.swift; sourceTree = "<group>"; };
 		C357703228746A7F00D787C6 /* BreedFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreedFetcher.swift; sourceTree = "<group>"; };
+		C35770342874717100D787C6 /* BreedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreedList.swift; sourceTree = "<group>"; };
+		C3577037287471A500D787C6 /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
+		C3577039287471B400D787C6 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,10 +106,11 @@
 		C3576FFF28745B1800D787C6 /* SwiftUICatApi */ = {
 			isa = PBXGroup;
 			children = (
-				C357702F287469FD00D787C6 /* ViewModel */,
-				C357702A2874653500D787C6 /* Models */,
 				C357700028745B1800D787C6 /* SwiftUICatApiApp.swift */,
 				C357700228745B1800D787C6 /* ContentView.swift */,
+				C35770362874717E00D787C6 /* Views */,
+				C357702F287469FD00D787C6 /* ViewModel */,
+				C357702A2874653500D787C6 /* Models */,
 				C357700428745B1D00D787C6 /* Assets.xcassets */,
 				C357700628745B1D00D787C6 /* Preview Content */,
 			);
@@ -150,6 +157,16 @@
 				C357703228746A7F00D787C6 /* BreedFetcher.swift */,
 			);
 			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		C35770362874717E00D787C6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C35770342874717100D787C6 /* BreedList.swift */,
+				C3577037287471A500D787C6 /* ErrorView.swift */,
+				C3577039287471B400D787C6 /* LoadingView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -286,6 +303,9 @@
 				C357703328746A7F00D787C6 /* BreedFetcher.swift in Sources */,
 				C357702C2874654E00D787C6 /* Breed.swift in Sources */,
 				C357700328745B1800D787C6 /* ContentView.swift in Sources */,
+				C3577038287471A500D787C6 /* ErrorView.swift in Sources */,
+				C357703A287471B400D787C6 /* LoadingView.swift in Sources */,
+				C35770352874717100D787C6 /* BreedList.swift in Sources */,
 				C357700128745B1800D787C6 /* SwiftUICatApiApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
